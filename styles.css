@@ -21,14 +21,14 @@ h3{
 	font-family: "lato";
 	position: absolute;
 	top: 5%;
-	left: 44%;
+	left: 37%;
 }
 .contact-title{
 	font-family: "lato";
 }
 .contact-tagline{
 	font-family: "lato";
-	color: hotpink;
+	color: ;#CCCCFF
 }
 h2{
 	font-size: 20px;
@@ -52,7 +52,7 @@ a{
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background: pink;
+	background: #CCCCFF;
 	z-index: 2;
 	overflow: hidden;
 	animation: loader 2s ease 2s;
@@ -93,7 +93,7 @@ a{
 	left: 0;
 	width: 15%;
 	height: 9%;
-	background-color: pink;
+	background-color: #CCCCFF;
 	text-align: center;
 }
 .line{
@@ -128,7 +128,7 @@ li a{
 	cursor: pointer;
 }
 li a:hover{
-	text-decoration-color: pink;
+	text-decoration-color: #CCCCFF;
 	text-decoration: line-through;
 }
 .nav-btn{
@@ -166,7 +166,7 @@ li a:hover{
 	position: absolute;
 	top: 20%;
 	right: 0;
-	background-color: pink;
+	background-color: #CCCCFF;
 }
 .strip{
 	position: absolute;
@@ -244,7 +244,7 @@ li a:hover{
 	left: 0;
 	width: 30%;
 	height: 35%;
-	background-color: pink;
+	background-color: #CCCCFF;
 }
 .box{
 	position: absolute;
@@ -308,7 +308,7 @@ li a:hover{
 	right: 0;
 	width: 10%;
 	height: 80%;
-	background-color: pink;
+	background-color: #CCCCFFk;
 }
 .strip3{
 	position: absolute;
@@ -324,7 +324,7 @@ li a:hover{
 	left: 0;
 	width: 10%;
 	height: 80%;
-	background-color: pink;
+	background-color: #CCCCFF;
 }
 
 .photo{
@@ -353,7 +353,7 @@ li a:hover{
 	font-family: "lato";
 }
 .imp{
-	color: hotpink;
+	color: #CCCCFF;
 	padding-left: 30px; 
 }
 .imp2{
@@ -393,7 +393,7 @@ li a:hover{
     left: 0;
     width: 100%;
     height: 15px;
-    background-color: pink;
+    background-color: #CCCCFF;
     box-shadow: 0px 8px 15px rgba(0,0,0,.4);
     border-radius: 1000px;
 }
@@ -498,7 +498,7 @@ li a:hover{
 .cover{
 	width: 100%;
 	height: 100%;
-	background-color: pink;
+	background-color: #CCCCFF;
 	transform: skewY(-3deg);
 }
 .projects-container{
@@ -517,9 +517,12 @@ li a:hover{
 	text-align: center;
 }
 .pro-img{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
 	width: 400px;
 	height: 200px;
-	box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+	box-shadow: 0px 8px 15px #CCCCFF;
 }
 .pos2{
 	position: absolute;
@@ -625,13 +628,13 @@ li a:hover{
 	left: 0;
 	width: 15%;
 	height: 28%;
-	background-color: pink;
+	background-color: #CCCCFF;
 	text-align: center;
 }
 .scroll-indicator{
 	width: 40px;
 	height: 40px;
-	background-color: pink;
+	background-color: #CCCCFF;
 	position: absolute;
 	top: 45%;
 	left: 11.25%;
@@ -654,7 +657,7 @@ li a:hover{
 }
 
 .footer-link:hover {
-  color: hotpink;
+  color: #CCCCFF;
 }
 .footer-social-icons ul{
     margin: 0px;
@@ -690,19 +693,19 @@ li a:hover{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: hotpink;
+    background: #CCCCFF;
     transition: .5s;
     transform: scale(.9);
     z-index: -1;
 }
 .footer-social-icons ul li a:hover:before{
     transform: scale(1.1);
-    box-shadow: 0 0 15px hotpink;
+    box-shadow: 0 0 15px #CCCCFF;
 }
 .footer-social-icons ul li a:hover{
-    color: hotpink;
-    box-shadow: 0 0 5px hotpink;
-    text-shadow: 0 0 5px hotpink;
+    color:#CCCCFF;
+    box-shadow: 0 0 5px #CCCCFF;
+    text-shadow: 0 0 5px #CCCCFF;
 }
 .sidebar2{
 	width: 30%;
@@ -710,7 +713,7 @@ li a:hover{
 	position: absolute;
 	top: 0;
 	right: 0;
-	background-color: pink;
+	background-color: #CCCCFF;
 	text-align: center;
 }
 .strip2{
@@ -951,3 +954,30 @@ li a:hover{
     	line-height: 100px;
     }
 }
+
+.large-font{
+  font-size:xxx-large;
+}
+.top-20{
+  position:relative;
+  top:20vh;
+}
+ion-icon.active{
+  animation:like 0.5s 1;
+  fill:red;
+  stroke:none;
+}
+ion-icon{
+  fill:transparent;
+  stroke:black;
+  stroke-width:30;
+  transition:all 0.5s;
+}
+
+
+@-webkit-keyframes like {
+  0%   { transform: scale(1); }
+  90%   { transform: scale(1.2); }
+  100% { transform: scale(1.1); }
+}
+
