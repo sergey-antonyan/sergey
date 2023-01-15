@@ -186,7 +186,7 @@ li a:hover{
 	width: 300px;
 	height: 220px;
 	z-index: -1;
-	animation: svgTwo 4s ease-in-out 0s infinite;
+	animation: svgTwo 2s ease-in-out 0s infinite;
 	animation-direction: alternate;
 }
 @keyframes svgTwo{
